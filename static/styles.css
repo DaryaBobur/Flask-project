@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.poster {
+    margin: 0 auto;
+}
+
+.film_list {
+    list-style: none;
+    text-align: left;
+}
+
+.text_describe {
+    font-size: 22px;
+    width: 900px;
+    height: auto;
+}
+
+.wrap {
+ display: flex;
+}
+
+.quotes {
+    text-align: left;
+    font-size: 17px;
+}
+
+.form_review {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_item {
+    margin-bottom: 50px;
+}
+
+.wrap_form {
+    display: flex;
+}
+
+.photo_review {
+    margin-right: 50px;
+}
+
+.title_review, .title_describe,.title_general {
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+label, textarea {
+    display: flex;
+    justify-content: space-between;
+    resize: none;
+}
+
+label {
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+input, textarea {
+    width: 358px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #2a2a2a;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 18px;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f37a21;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: #f37a21db;
+}

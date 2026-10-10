@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Відгук</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+<h1 class="title_review">Відгук про фільм</h1>
+<div class="wrap_form">
+<img class="photo_review" src="../static/pictures/ring.jpg" alt="Перстень на фоні гори і карти" width="400">
+<form class="form_review" method="POST" action="/review">
+    <label>
+        Ім'я
+        <input type="text" name="username" placeholder="Введіть ім’я" autofocus>
+    </label>
+    <label>
+        Відгук
+        <textarea name="review" rows="5" placeholder="Залиште відгук"></textarea>
+    </label>
+    <button type="submit">Відправити</button>
+</form>
+</div>
+</body>
+</html>
